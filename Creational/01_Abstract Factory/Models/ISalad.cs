@@ -1,6 +1,6 @@
 ﻿namespace _01_Abstract_Factory.Models
 {
-    public interface ISalat
+    public interface ISalad
     {
         public void Prepare();
 

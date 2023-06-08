@@ -2,5 +2,7 @@
 {
     public interface IFoodFactory
     {
+        public IMeal PrepareMeal();
+        public ISalad PrepareSalat();
     }
 }
