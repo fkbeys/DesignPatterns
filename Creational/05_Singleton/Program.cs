@@ -1,6 +1,4 @@
-﻿using _05_Singleton.Models;
-
-namespace _05_Singleton
+﻿namespace _05_Singleton
 {
     internal class Program
     {
@@ -14,9 +12,12 @@ namespace _05_Singleton
             var fx6 = DatabaseOldVersion.database;
 
 
-            var lazy1 = Database.Instance;
-            var lazy2 = Database.Instance;
-            var lazy3 = Database.Instance;
+            var lazy1 = Database.GetInstance;
+            var lazy2 = Database.GetInstance;
+            var lazy3 = Database.GetInstance;
+
+
+
 
             Console.Read();
 

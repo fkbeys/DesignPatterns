@@ -1,4 +1,4 @@
-﻿namespace _05_Singleton.Models
+﻿namespace _05_Singleton
 {
     public class DatabaseOldVersion
     {
