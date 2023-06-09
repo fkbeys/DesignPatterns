@@ -18,10 +18,10 @@ namespace _01_Abstract_Factory
 
             foodFactory = new MexicanFoodFactory();
 
-              meal = foodFactory.PrepareMeal();
+            meal = foodFactory.PrepareMeal();
             meal.Prepare();
 
-              salad = foodFactory.PrepareSalat();
+            salad = foodFactory.PrepareSalat();
             salad.Prepare();
 
             //IFoodFactory italianFoodFactory = new ItalianFoodFactory();
