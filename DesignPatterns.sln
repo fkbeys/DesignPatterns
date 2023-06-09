@@ -11,15 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Abstract Factory", "Creational\01_Abstract Factory\01_Abstract Factory.csproj", "{054C32CC-40E5-4B23-AD85-2929A0E9D7E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_BuilderPattern", "Creational\02_BuilderPattern\02_BuilderPattern.csproj", "{53B9A738-58B5-419C-AB0F-20C610A478E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_BuilderPattern", "Creational\02_BuilderPattern\02_BuilderPattern.csproj", "{53B9A738-58B5-419C-AB0F-20C610A478E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Singleton", "Creational\05_Singleton\05_Singleton.csproj", "{DA85606F-AF71-4128-879F-001E15369B45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Singleton", "Creational\05_Singleton\05_Singleton.csproj", "{DA85606F-AF71-4128-879F-001E15369B45}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Factory", "Creational\03_Factory\03_Factory.csproj", "{42128232-1930-453E-AFF7-E137E55A9B53}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Prototype", "Creational\04_Prototype\04_Prototype.csproj", "{3789E281-9EC1-44D5-AFDB-84A4D9F019A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_SingletonWithDependencyInjection", "Creational\06_SingletonWithDependencyInjection\06_SingletonWithDependencyInjection.csproj", "{26CAC0C2-6986-472F-81B8-F80CD5BA9C22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_SingletonWithDependencyInjection", "Creational\06_SingletonWithDependencyInjection\06_SingletonWithDependencyInjection.csproj", "{26CAC0C2-6986-472F-81B8-F80CD5BA9C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_AdapterPattern", "Structural\01_AdapterPattern\01_AdapterPattern.csproj", "{31480378-3C8A-45F1-8A67-DBD14995B518}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{26CAC0C2-6986-472F-81B8-F80CD5BA9C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26CAC0C2-6986-472F-81B8-F80CD5BA9C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26CAC0C2-6986-472F-81B8-F80CD5BA9C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31480378-3C8A-45F1-8A67-DBD14995B518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31480378-3C8A-45F1-8A67-DBD14995B518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31480378-3C8A-45F1-8A67-DBD14995B518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31480378-3C8A-45F1-8A67-DBD14995B518}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{42128232-1930-453E-AFF7-E137E55A9B53} = {0B464193-58AF-4E30-800C-346BA53B25A7}
 		{3789E281-9EC1-44D5-AFDB-84A4D9F019A7} = {0B464193-58AF-4E30-800C-346BA53B25A7}
 		{26CAC0C2-6986-472F-81B8-F80CD5BA9C22} = {0B464193-58AF-4E30-800C-346BA53B25A7}
+		{31480378-3C8A-45F1-8A67-DBD14995B518} = {C0AE3FC3-A0EF-4204-8DB5-65EABF31C7AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {664FFAEE-8402-470A-B502-CE44E2F7BB91}
