@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_SingletonWithDependencyI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_AdapterPattern", "Structural\01_AdapterPattern\01_AdapterPattern.csproj", "{31480378-3C8A-45F1-8A67-DBD14995B518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_BridgePattern", "Structural\02_BridgePattern\02_BridgePattern.csproj", "{C777511D-2A6A-4BDC-A1C8-AE7DADDAEA23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_BridgePattern", "Structural\02_BridgePattern\02_BridgePattern.csproj", "{C777511D-2A6A-4BDC-A1C8-AE7DADDAEA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_CompositePattern", "Structural\03_CompositePattern\03_CompositePattern.csproj", "{6D9DDEBD-0C7A-4F1C-86FB-320DE050512F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_CompositePattern", "Structural\03_CompositePattern\03_CompositePattern.csproj", "{6D9DDEBD-0C7A-4F1C-86FB-320DE050512F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_DecoratorPattern", "Structural\04_DecoratorPattern\04_DecoratorPattern.csproj", "{8CB2EAE6-65F8-4E46-8362-0752931CC38C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{6D9DDEBD-0C7A-4F1C-86FB-320DE050512F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D9DDEBD-0C7A-4F1C-86FB-320DE050512F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D9DDEBD-0C7A-4F1C-86FB-320DE050512F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB2EAE6-65F8-4E46-8362-0752931CC38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB2EAE6-65F8-4E46-8362-0752931CC38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB2EAE6-65F8-4E46-8362-0752931CC38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB2EAE6-65F8-4E46-8362-0752931CC38C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{31480378-3C8A-45F1-8A67-DBD14995B518} = {C0AE3FC3-A0EF-4204-8DB5-65EABF31C7AD}
 		{C777511D-2A6A-4BDC-A1C8-AE7DADDAEA23} = {C0AE3FC3-A0EF-4204-8DB5-65EABF31C7AD}
 		{6D9DDEBD-0C7A-4F1C-86FB-320DE050512F} = {C0AE3FC3-A0EF-4204-8DB5-65EABF31C7AD}
+		{8CB2EAE6-65F8-4E46-8362-0752931CC38C} = {C0AE3FC3-A0EF-4204-8DB5-65EABF31C7AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {664FFAEE-8402-470A-B502-CE44E2F7BB91}
