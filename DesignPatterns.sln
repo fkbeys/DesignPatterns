@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_FlyWeightPattern", "Stru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_ProxyPattern", "Structural\07_ProxyPattern\07_ProxyPattern.csproj", "{714C50DE-CD32-43C2-B5C0-01123F0E6EDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ChainOfResponsibility", "Behavioral\01_ChainOfResponsibility\01_ChainOfResponsibility.csproj", "{48D9681A-DA73-433C-ABDA-74A789A1CA32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{714C50DE-CD32-43C2-B5C0-01123F0E6EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714C50DE-CD32-43C2-B5C0-01123F0E6EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714C50DE-CD32-43C2-B5C0-01123F0E6EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D9681A-DA73-433C-ABDA-74A789A1CA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D9681A-DA73-433C-ABDA-74A789A1CA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D9681A-DA73-433C-ABDA-74A789A1CA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D9681A-DA73-433C-ABDA-74A789A1CA32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{5FDA255F-1BBC-4528-9252-99B859F8C3FE} = {C0AE3FC3-A0EF-4204-8DB5-65EABF31C7AD}
 		{84AACC13-9F59-4743-828C-C1A2023AC04E} = {C0AE3FC3-A0EF-4204-8DB5-65EABF31C7AD}
 		{714C50DE-CD32-43C2-B5C0-01123F0E6EDB} = {C0AE3FC3-A0EF-4204-8DB5-65EABF31C7AD}
+		{48D9681A-DA73-433C-ABDA-74A789A1CA32} = {92B5569A-4250-43E2-A6FA-BCF1EC3B1F94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {664FFAEE-8402-470A-B502-CE44E2F7BB91}
