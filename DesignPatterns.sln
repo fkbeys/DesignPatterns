@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Factory", "03_Factory\03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Prototype", "04_Prototype\04_Prototype.csproj", "{B2F72751-E10E-45ED-95A2-F30605111949}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Singleton", "Creational\05_Singleton\05_Singleton.csproj", "{DA85606F-AF71-4128-879F-001E15369B45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B2F72751-E10E-45ED-95A2-F30605111949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F72751-E10E-45ED-95A2-F30605111949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F72751-E10E-45ED-95A2-F30605111949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA85606F-AF71-4128-879F-001E15369B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA85606F-AF71-4128-879F-001E15369B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA85606F-AF71-4128-879F-001E15369B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA85606F-AF71-4128-879F-001E15369B45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{53B9A738-58B5-419C-AB0F-20C610A478E9} = {0B464193-58AF-4E30-800C-346BA53B25A7}
 		{8487BB6E-7E36-4E34-BDC9-090ABD077A3A} = {0B464193-58AF-4E30-800C-346BA53B25A7}
 		{B2F72751-E10E-45ED-95A2-F30605111949} = {0B464193-58AF-4E30-800C-346BA53B25A7}
+		{DA85606F-AF71-4128-879F-001E15369B45} = {0B464193-58AF-4E30-800C-346BA53B25A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {664FFAEE-8402-470A-B502-CE44E2F7BB91}
