@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_IteratorPattern", "Behav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_InterpreterPattern", "Behavioral\04_InterpreterPattern\04_InterpreterPattern.csproj", "{C9F3979B-ABA8-494A-B257-9AFC814ADECE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_MediatorPattern", "Behavioral\05_MediatorPattern\05_MediatorPattern.csproj", "{8C01A89D-5A6F-42CD-936E-D056CAC1D124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{C9F3979B-ABA8-494A-B257-9AFC814ADECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9F3979B-ABA8-494A-B257-9AFC814ADECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9F3979B-ABA8-494A-B257-9AFC814ADECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C01A89D-5A6F-42CD-936E-D056CAC1D124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C01A89D-5A6F-42CD-936E-D056CAC1D124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C01A89D-5A6F-42CD-936E-D056CAC1D124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C01A89D-5A6F-42CD-936E-D056CAC1D124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +145,7 @@ Global
 		{4EC3F367-BA40-4A6B-8608-927D8F420D6D} = {92B5569A-4250-43E2-A6FA-BCF1EC3B1F94}
 		{59B5CFA4-6CD8-4260-8AE6-6515201BD5EC} = {92B5569A-4250-43E2-A6FA-BCF1EC3B1F94}
 		{C9F3979B-ABA8-494A-B257-9AFC814ADECE} = {92B5569A-4250-43E2-A6FA-BCF1EC3B1F94}
+		{8C01A89D-5A6F-42CD-936E-D056CAC1D124} = {92B5569A-4250-43E2-A6FA-BCF1EC3B1F94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {664FFAEE-8402-470A-B502-CE44E2F7BB91}
