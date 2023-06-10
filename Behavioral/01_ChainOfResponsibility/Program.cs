@@ -14,9 +14,6 @@
             fivePercentDiscountHandler.ApplyDiscount(sale1);
             fivePercentDiscountHandler.ApplyDiscount(sale2);
 
-            
-
-
             Console.ReadLine();
 
         }
