@@ -17,12 +17,9 @@
 
             factory = shapFactory.Getshape(ShapeTypes.Circle);
             factory.Draw(7, 8);
-
-
-
+             
             Console.ReadLine();
 
-            Console.WriteLine("Hello, World!");
         }
     }
 }

@@ -14,7 +14,6 @@ namespace _04_Prototype
 
 
             Console.ReadLine();
-            Console.WriteLine("Hello, World!");
         }
     }
 }

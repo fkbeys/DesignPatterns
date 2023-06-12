@@ -11,7 +11,6 @@ namespace _01_AdapterPattern
             
 
 
-            Console.WriteLine("Hello, World!");
         }
     }
 }

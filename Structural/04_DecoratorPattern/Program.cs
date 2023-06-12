@@ -11,7 +11,6 @@
             Console.WriteLine("Name:" + decorator.Description + "Price: " + decorator.Price());
 
             Console.ReadLine();
-            Console.WriteLine("Hello, World!");
         }
     }
 }

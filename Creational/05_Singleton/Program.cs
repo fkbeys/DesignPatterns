@@ -21,7 +21,6 @@
 
             Console.Read();
 
-            Console.WriteLine("Hello, World!");
         }
     }
 }

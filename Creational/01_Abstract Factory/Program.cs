@@ -6,7 +6,6 @@ namespace _01_Abstract_Factory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
 
             IFoodFactory foodFactory = new ItalianFoodFactory();
 
